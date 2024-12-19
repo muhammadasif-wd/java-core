@@ -78,4 +78,35 @@ Reference data types are used to refer to objects. They are created using define
 
 Reference variables are created using constructors of the classes. They are used to access objects. These variables are declared to be of a specific type that cannot be changed.
 
-Understanding these data types is fundamental to programming in Java, as they form the building blocks for data manipulation and storage.
+## Literals
+
+Literals are the constant values assigned to variables. Java supports several types of literals:
+
+1. **Integer Literals**
+
+   - Example: `int i = 100;`
+   - Explanation: Integer literals can be specified in decimal (base 10), hexadecimal (base 16), or octal (base 8) formats.
+
+2. **Floating-Point Literals**
+
+   - Example: `float f = 10.5f;`
+   - Explanation: Floating-point literals are used to represent decimal numbers. They can be specified in standard or scientific notation.
+
+3. **Character Literals**
+
+   - Example: `char c = 'A';`
+   - Explanation: Character literals are enclosed in single quotes and represent a single character.
+
+4. **String Literals**
+
+   - Example: `String str = "Hello";`
+   - Explanation: String literals are enclosed in double quotes and represent a sequence of characters.
+
+5. **Boolean Literals**
+
+   - Example: `boolean b = true;`
+   - Explanation: Boolean literals can only be `true` or `false`.
+
+6. **Null Literals**
+   - Example: `String str = null;`
+   - Explanation: The `null` literal represents a null reference, which means that the variable does not refer to any object.
