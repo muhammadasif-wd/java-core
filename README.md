@@ -1,4 +1,4 @@
-# java-core
+# JAVA Programming Language
 
 ## Java Installation and Run Process for Windows
 
