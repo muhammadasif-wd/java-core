@@ -1,5 +1,5 @@
 
-class add {
+class Calculator {
 
     public static void main(String a[]) {
         int firstNumber = 10;
