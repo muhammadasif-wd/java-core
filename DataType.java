@@ -16,5 +16,17 @@ class DataType {
         i++;
         System.out.println(i);
 
+        // type conversion
+        byte byteNum = 100;
+        int intNumber = byteNum; // convert type byte to int
+        // System.out.println(intNumber);
+
+        // convert int to byte
+        int intNum = 210;
+        // byte byteNumber = intNum; // error: incompatible types: possible lossy conversion from int to byte`
+        byte byteNumber = (byte) intNum;
+
+        System.out.println(byteNumber);
+
     }
 }
